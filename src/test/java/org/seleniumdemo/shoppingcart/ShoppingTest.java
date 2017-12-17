@@ -41,7 +41,7 @@ public class ShoppingTest {
         driver.findElement(By.cssSelector("a[title='Proceed to checkout']")).click();
 
         String totalPrice = driver.findElement(By.id("total_price_container")).getText();
-        assertEquals("$199.51", totalPrice);
+        assertEquals("$18.51", totalPrice);
 
         WebElement shoppingCartOption = driver.findElement(By.cssSelector("a[title='View my shopping cart']"));
         actions.moveToElement(shoppingCartOption);
