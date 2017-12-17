@@ -31,6 +31,7 @@
 			<groupId>com.browserstack</groupId>
 			<artifactId>automate-testassist</artifactId>
 			<version>0.7.2-SNAPSHOT</version>
+			<scope>test</scope>
 		</dependency>
 		<repositories>
 		  <repository>
